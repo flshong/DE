@@ -8,8 +8,8 @@ In this project, you’ll model user activity data for a music streaming app cal
 
 ### Database Schema
 The schema used for this exercise is the Star Schema: <br/>
-One main fact table containing all the measures associated to each event (user song plays), <br/> 
-and 4 dimentional tables, each with a primary key that is being referenced from the fact table.
+- Fact table : containing the metadata of the complete information about each user activity, <br/> 
+- Dimentional tables: each with a primary key that is being referenced from the fact table.
 
 #### Fact Table
 **songplays** - records in log data associated with song plays i.e. records with page NextSong
