@@ -7,8 +7,8 @@ In this project, you’ll model user activity data for a music streaming app cal
 2. Log Dataset - User activity log
 
 ### Database Schema
-The schema used for this exercise is the Star Schema:
-One main fact table containing all the measures associated to each event (user song plays), 
+The schema used for this exercise is the Star Schema: <br/>
+One main fact table containing all the measures associated to each event (user song plays), <br/> 
 and 4 dimentional tables, each with a primary key that is being referenced from the fact table.
 
 #### Fact Table
@@ -58,4 +58,4 @@ and 4 dimentional tables, each with a primary key that is being referenced from 
 ### Steps to run:
 1. Run create_tables.py : to drop database if exist and create a new datase with new tables are created.
 2. Run test.ipynb in Jupyter Notebook to verify interactively that all tables are created correctly.
-3. Run etl.py - This will run the etl pipeline and extract data from the log files and insert them into the facts and dimension table
+3. Run etl.py : to run the etl pipeline and extract data from the log files and insert them into the facts and dimension table
